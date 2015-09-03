@@ -11,3 +11,5 @@ euclidian <- function(x,y) {
   }
   return(x)
 }
+
+euclidian(23413412,545235)
