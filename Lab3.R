@@ -15,7 +15,10 @@ euclidean <- function(x,y) {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e9b3466cad6c974b45c3fb2d60272048d0053c24
 dijkstra <- function(graph,init_node) {
   if (is.numeric(init_node)==FALSE || class(graph)!="data.frame" || colnames(graph)!=c("v1", "v2", "w") || init_node>length(unique(graph$v1))) {
     stop()

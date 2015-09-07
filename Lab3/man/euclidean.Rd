@@ -5,7 +5,11 @@
   Euclidean distance
 }
 \description{
+<<<<<<< HEAD
+Finds the greatest common divisor of two numbers.
+=======
 Finds the greatest common divisor of two numbers.    
+>>>>>>> 04c594f2376f4bd845770f64f1d4085e17798a82
 }
 \usage{
 euclidean(x, y)
