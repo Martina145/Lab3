@@ -6,6 +6,7 @@
 }
 \description{
 Finds the greatest common divisor of two numbers.
+}
 \usage{
 euclidean(x, y)
 }
