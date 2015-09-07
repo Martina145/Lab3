@@ -3,12 +3,10 @@
 \alias{Lab3}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Distance computation
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Computes the euclidean distance and dijkstra algorithm
 }
 \details{
 \tabular{ll}{
@@ -18,25 +16,24 @@ Version: \tab 1.0\cr
 Date: \tab 2015-09-07\cr
 License: \tab What license is it under?\cr
 }
-~~ An overview of how to use the package, including the most ~~
-~~ important functions ~~
+euclidean(x,y)
+dijkstra(graph, init_node)
 }
 \author{
-Who wrote it
+Martina Sandberg, Caroline Svahn
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Who to complain to <carsv733@student.liu.se>
+
 }
 \references{
-~~ Literature or other references for background information ~~
+https://en.wikipedia.org/wiki/Euclidean_algorithm
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }
-~~ Optionally other standard keywords, one per line, from file ~~
-~~ KEYWORDS in the R documentation directory ~~
+
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+
 }
