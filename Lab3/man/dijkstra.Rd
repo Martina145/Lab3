@@ -2,10 +2,10 @@
 \alias{dijkstra}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-  ~~function to do ... ~~
+  Dijkstra algorithm
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Computes the dijkstra algorithm.
 }
 \usage{
 dijkstra(graph, init_node)
@@ -13,24 +13,20 @@ dijkstra(graph, init_node)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{graph}{
-%%     ~~Describe \code{graph} here~~
+A dataframe containing the edges of the graph (v1 & v2) and the weights.
 }
   \item{init_node}{
-%%     ~~Describe \code{init_node} here~~
+The initial node as a scalar.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Returns the shortest path from the initial node to all other nodes as a numeric vector.
 }
 \references{
-%% ~put references to the literature/web site here ~
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }
 \author{
 %%  ~~who you are~~

@@ -15,10 +15,6 @@ euclidean <- function(x,y) {
 }
 
 
-
-
-
-
 dijkstra <- function(graph,init_node) {
 
   dist <- NULL
