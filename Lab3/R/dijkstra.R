@@ -1,25 +1,5 @@
-package.skeleton(list = c("euclidean","dijkstra"), name = "Lab")
-
-euclidean <- function(x,y) {
-  if ( is.numeric(x) != TRUE || is.numeric(y) != TRUE) {
-    stop("Not numeric arguments")
-  }
-  while (x != y) {
-    if (x > y) {
-      x <- x - y
-    } else {
-      y <- y - x
-    }
-  }
-  return(x)
-}
-
-
-
-
-
-
-dijkstra <- function(graph,init_node) {
+dijkstra <-
+function(graph,init_node) {
 
   dist <- NULL
   prev <- NULL
@@ -45,7 +25,9 @@ dijkstra <- function(graph,init_node) {
       }
     }
     nodes <- nodes[nodes != u]
+    
     I1 <-graph[graph$v1 == u,]
+    
     for (j in  I1$v2) {
       
        I3 <- I1[I1$v2 == j,]
@@ -55,6 +37,6 @@ dijkstra <- function(graph,init_node) {
          prev[j] <- u
        }
      }
+    return(dist)
   }
-  return(dist)
 }
