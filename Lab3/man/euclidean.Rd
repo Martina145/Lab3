@@ -1,13 +1,13 @@
-\name{euclidian}
-\alias{euclidian}
+\name{euclidean}
+\alias{euclidean}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-  Euclidian distance
+  Euclidean distance
 }
 \description{
 Finds the greatest common divisor of two numbers.
 \usage{
-euclidian(x, y)
+euclidean(x, y)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
