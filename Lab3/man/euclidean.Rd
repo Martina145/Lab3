@@ -5,7 +5,8 @@
   Euclidean distance
 }
 \description{
-Finds the greatest common divisor of two numbers.
+Finds the greatest common divisor of two numbers.    
+}
 \usage{
 euclidean(x, y)
 }
@@ -16,7 +17,6 @@ Scalar or integer
 }
   \item{y}{
 Scalar or integer
-}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
