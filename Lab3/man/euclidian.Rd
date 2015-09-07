@@ -2,35 +2,30 @@
 \alias{euclidian}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-  ~~function to do ... ~~
+  Euclidian distance
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+Finds the greatest common divisor of two numbers.
 \usage{
 euclidian(x, y)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-%%     ~~Describe \code{x} here~~
+Scalar or integer
 }
   \item{y}{
-%%     ~~Describe \code{y} here~~
+Scalar or integer
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Returns the greatest common divisor as an integer.
 }
 \references{
-%% ~put references to the literature/web site here ~
+https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
 \author{
 %%  ~~who you are~~
