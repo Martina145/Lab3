@@ -1,6 +1,9 @@
 dijkstra <-
 function(graph,init_node) {
-
+  if (is.numeric(init_node)==FALSE || class(graph)!="data.frame" || colnames(graph)!=c("v1", "v2", "w") || init_node>length(unique(graph$v1))) {
+    stop()
+  }
+  
   dist <- NULL
   prev <- NULL
   dist[init_node] <- 0

@@ -66,3 +66,7 @@ wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
 
 save(wiki_graph,file = "wiki_graph.RData")
 
+devtools::install_github("Martina145/Lab3/Lab3")
+library(Lab3)
+
+
