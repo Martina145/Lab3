@@ -37,6 +37,6 @@ function(graph,init_node) {
          prev[j] <- u
        }
      }
-    return(dist)
   }
+ return(dist)
 }
