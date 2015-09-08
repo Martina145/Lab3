@@ -1,4 +1,4 @@
-euclidian <-
+euclidean <-
 function(x,y) {
   if ( is.numeric(x) != TRUE || is.numeric(y) != TRUE) {
     stop("Not numeric arguments")
