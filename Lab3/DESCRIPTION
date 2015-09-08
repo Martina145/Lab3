@@ -9,4 +9,4 @@ Author: c(
     person("Caroline", "Svahn", email = "carsv733@student.liu.se", role = "aut"))
 Description: Copmutes the euclidean distance and dijkstra algorithm
 License: What license is it under?
-
+Suggests: testthat

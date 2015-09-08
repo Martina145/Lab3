@@ -18,6 +18,7 @@ Scalar or integer
   \item{y}{
 Scalar or integer
 }
+}
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
@@ -40,9 +41,7 @@ https://en.wikipedia.org/wiki/Euclidean_algorithm
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+## euclidian(123612, 13892347912)
 
 ## The function is currently defined as
 function (x, y) 

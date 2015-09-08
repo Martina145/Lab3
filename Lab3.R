@@ -1,4 +1,4 @@
-package.skeleton(list = c("euclidean","dijkstra"), name = "Lab")
+package.skeleton(list = c("euclidean","dijkstra"), name = "Lab3")
 
 euclidean <- function(x,y) {
   if ( is.numeric(x) != TRUE || is.numeric(y) != TRUE) {

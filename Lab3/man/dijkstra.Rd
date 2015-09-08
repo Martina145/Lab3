@@ -26,7 +26,7 @@ The initial node as a scalar.
 Returns the shortest path from the initial node to all other nodes as a numeric vector.
 }
 \references{
-https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm
 }
 \author{
 %%  ~~who you are~~
@@ -41,9 +41,7 @@ https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+## dijkstra(wiki_graph, 1)
 
 ## The function is currently defined as
 function (graph, init_node) 

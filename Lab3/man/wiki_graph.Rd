@@ -4,20 +4,20 @@
 \name{wiki_graph}
 \alias{wiki_graph}
 \title{Nodes and weights}
-\format{A data frame with 18 rows and 3 variables}
+\format{A data frame with 18 rows and 3 variables.}
 \usage{
 data(wiki_graph)
 }
 \description{
-A dataset containing nodes and wieghts for a graph.
-The variables are as follows:
+A dataset containing nodes and wieghts for a graph. The variables are as
+follows:
 }
 \details{
-\itemize{
-  \item v1 vector with nodes
-  \item v2 vector with nodes
-  \item w vector with weights
+\itemize{ \item v1 vector with nodes \item v2 vector with nodes \item w
+vector with weights }
 }
+\references{
+\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
 \keyword{datasets}
 
